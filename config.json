@@ -1,0 +1,20 @@
+{
+    "server": {
+        "port": 9000
+    },
+    "files": {
+        "expire": 900000,
+        "removethreshold": 60000,
+        "uploadtimeout": 60000,
+        "imageurl": {
+            "showfile": [
+                "png",
+                "jpg",
+                "jpeg"
+            ]
+        },
+        "viewer": {
+            "mp4": "video"
+        }
+    }
+}

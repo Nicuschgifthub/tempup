@@ -1,0 +1,110 @@
+/* @font-face {
+    font-family: 'bitcell';
+    src: url('/web/bitcell.ttf') format('truetype');
+}
+
+* {
+    font-family: bitcell;
+}
+
+.center {
+    font-size: xx-large;
+    font-family: "bitcell";
+} */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-drop-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    /* Adjust the border radius as needed */
+    position: relative;
+}
+
+.innerbox {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* Adjust the background color and opacity */
+    color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.expireinfo {
+    display: flex;
+    border: 1px solid #ccc;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+
+.upload-button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: rgb(85, 80, 80);
+    margin-top: 10px;
+    display: block;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+.dark-mode .box {
+    border-color: #444;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#drop-area.highlight {
+    border-color: purple;
+}
+
+.progresstimer {
+    z-index: 1;
+    background-color: #333;
+    bottom: 0cm;
+}
+
+.href-text {
+    z-index: 0;
+    color: rgb(15, 192, 133);
+    text-decoration: none;
+    padding: 5px;
+    background-color: #333;
+    border-radius: 5px;
+}

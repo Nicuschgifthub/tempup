@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#video-container {
+    position: relative;
+}
+
+video {
+    width: 60%;
+    /* height: 20%; */
+}
+
+#title {
+    position: absolute;
+    top: 480px;
+    /* Adjust the value as needed for spacing */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+.dark-mode .box {
+    border-color: #444;
+}
